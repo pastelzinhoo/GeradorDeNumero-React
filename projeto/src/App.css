@@ -1,38 +1,71 @@
-.App {
-  text-align: center;
+
+@font-face {
+    font-family: Neon;
+    src: url(Motley\ Forces.ttf);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #ebca46;
+    text-shadow: 0 0 4px #ebca46,
+                 0 0 5px #ebca46,
+                 0 0 12px #ebca46;
+    font-size: 200px;
+    height: 200px;
+    margin-top: 250px;
+    margin-left: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+button {
+    font-size: 20px;
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 813px;
+    background-color: #ebca46;
+    font-weight: 600;
+    border: 0px transparent;
 }
 
-.App-link {
-  color: #61dafb;
+button:hover {
+    transition: 0.1s;
+    box-shadow: 0 0 30px #FFE16E,
+                0 0 90px #FFE16E,
+                0 0 12px #FFE16E;;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #FFE16E;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ul {
+    display: flex;
+    justify-content: center;
+    color: #ebca46;
+    list-style: none;
+    font-size: 50px;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+
+.Linkedin {
+    margin-right: 50px;
+}
+
+.Github {
+    margin-right: 50px;
+}
+
+.Twitter {
+    margin-right: 20px;
+}
+
+a {
+    color: #ebca46;
 }
